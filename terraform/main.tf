@@ -4,7 +4,7 @@ terraform {
 
 variable "subject" {
    type = string
-   default = "tfctl test"
+   default = "tfctl adf"
    description = "Subject to hello"
 }
 
@@ -13,5 +13,5 @@ output "hello_world" {
 }
 
 output "test" {
-  value = "test a"
+  value = "test b"
 }
